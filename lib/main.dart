@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.orange,
+        primaryColor: Colors.orange,
       ),
       home: MultiProvider(
           providers: [ChangeNotifierProvider(create: (_) => OrderProvider())],
